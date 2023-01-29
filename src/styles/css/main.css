@@ -208,4 +208,38 @@ p {
   height: 2px;
   width: 30px;
   background-color: black;
+}
+
+.info {
+  margin-bottom: 150px;
+}
+.info__wrapper {
+  display: flex;
+}
+.info__img {
+  margin-right: 60px;
+  flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info__list {
+  flex-basis: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info__list-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+.info__list-item .item-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.info__list-item .item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
 }/*# sourceMappingURL=main.css.map */

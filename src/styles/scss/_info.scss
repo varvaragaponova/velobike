@@ -1,0 +1,36 @@
+.info {
+    margin-bottom: 150px;
+    &__wrapper {
+        display: flex;
+    }
+    &__img {
+        margin-right: 60px;
+        flex-basis: 570px;
+        object-fit: cover;
+    }
+    &__list {
+        flex-basis: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__list-item {
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+        .item-title {
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+        }
+        .item-text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+    }
+}
+// .container {
+// }
