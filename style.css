@@ -93,6 +93,8 @@ p {
     margin: 0 auto;
 }
 
+/*Header*/
+
 .header {
     width: 100%;
 }
@@ -126,6 +128,8 @@ p {
     color: #FFFFFF;
     transition: all 0.4s ease;
 }
+
+/*Bike*/
 
 .bike {
     border: 0;

@@ -1,0 +1,93 @@
+.bike {
+    border: 0;
+    padding: 100px 0 150px;
+    &___inner {
+        display: flex;
+    }
+    &__left_title {
+        margin: 74px 0 5px 0;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+    }
+    &__left_subtitle {
+        margin-bottom: 60px;
+        font-size: 32px;
+        line-height: 39px;
+        color: #6F6F6F;
+    }
+    &__left_text {
+        width: 420px;
+        &:nth-of-type(1) {
+            margin-bottom: 20px;
+        }
+        &t:nth-of-type(2) {
+            margin-bottom: 80px;
+        }
+        &:nth-of-type(2) {
+            margin-bottom: 80px;
+        }
+    }
+    a.bike__left_order {
+        padding: 28px 81px;
+        background-color: #131313;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        letter-spacing: 1.1em;
+        &:hover {
+            background-color: #FF4040;
+            transition: all 0.4s;
+        }
+    }
+    // &__right {
+    // }
+    // &__img-wrapper {
+    // }
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 74px;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 160px;
+            min-height: 60px;
+
+            & span:nth-child(1) {
+                margin-bottom: 5px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+            }
+            & span:nth-child(2) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    /*SLIDER*/
+    .slider {
+        // &__img {
+
+        // }
+        &__lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            & span {
+                display: block;
+                height: 2px;
+                width: 30px;
+                background-color: black;
+            }
+        }
+    }
+}
